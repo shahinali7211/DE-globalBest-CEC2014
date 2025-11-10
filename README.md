@@ -16,13 +16,6 @@ A clean and efficient implementation of **Differential Evolution (DE)** with glo
 - Shifted, rotated, composed functions
 - Official C source (`CEC2010/Header.h` + data files required)
 
-## Folder Structure
-DE-globalBest-CEC2014/
-├── CEC2010/               # Official CEC-2014 files (Header.h, data folder, etc.)
-├── Self_Define_Functions.h
-├── main.cpp               # Source code (this file)
-├── Results/               # Auto-created, contains Fitness_result_for_function_X.txt
-└── README.md
 
 ## How to Compile & Run (Windows / Linux)
 
@@ -36,4 +29,3 @@ DE-globalBest-CEC2014/
 g++ -O3 -std=c++11 main.cpp -o DE_CEC2014 -lboost_random
 ./DE_CEC2014.exe
 
-Make sure the CEC2010/ folder with all .txt data files is in the same directory as the executable.
