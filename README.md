@@ -1,2 +1,19 @@
 # DE-globalBest-CEC2014
-Classic Differential Evolution (DE/rand/1/bin + global-best) for CEC-2014 benchmark (30 functions). C++ with Boost RNG. 30 independent runs, auto logs best fitness per run. Configurable dimension (10/30/50/100D), pop size &amp; max FEs. Clean, fast, research-ready. Perfect for students &amp; EA researchers. MIT license. Ready to compile &amp; run! 🚀
+
+A clean and efficient implementation of **Differential Evolution (DE)** with global-best guidance applied to the **CEC-2014 benchmark suite** (30 single-objective real-parameter functions).
+
+## Algorithm Details
+- **Strategy**: DE/rand/1/bin + occasional use of global best in mutation
+- **Population size**: configurable (`Population_size` in header)
+- **Mutation factor** `F = 0.8`
+- **Crossover rate** `CR = 0.9`
+- **Max FEs**: `MAX_FV` (e.g., 10,000 × dimension)
+- **Runs per function**: `timesOfRun` (default 30)
+- **Boost RNG** for high-quality randomness
+
+## Benchmark
+- CEC-2014 test suite (F1–F30)
+- Shifted, rotated, composed functions
+- Official C source (`CEC2010/Header.h` + data files required)
+
+## Folder Structure
