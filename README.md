@@ -15,7 +15,14 @@ A clean and efficient implementation of **Differential Evolution (DE)** with glo
 - CEC-2014 test suite (F1–F30)
 - Shifted, rotated, composed functions
 - Official C source (`CEC2010/Header.h` + data files required)
+  
+## CEC-2014 Data Files
+The large input_data files are **not included** (GitHub size limits).
+Download them from the official source:
+- https://github.com/P-N-Suganthan/CEC2014
+- Or: https://www3.ntu.edu.sg/home/epnsugan/index_files/CEC2014/CEC2014.htm
 
+Extract and place the `input_data/` folder inside `CEC2010/` (or as required by your code).
 
 ## How to Compile & Run (Windows / Linux)
 
